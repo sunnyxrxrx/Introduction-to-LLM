@@ -1,3 +1,4 @@
+# 基础环境的配置（基于WSL）
 ## 在wsl下载pytorch
 打开wsl
 
@@ -208,4 +209,3 @@ response = client.chat.completions.create(
 )
 print(response.choices[0].message.content)
 ```
-## 大模型的微调
